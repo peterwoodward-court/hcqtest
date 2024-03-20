@@ -4,32 +4,7 @@
     <title>OCT B-scan Evaluation</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-
-    <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyDNt4mIFxyhXxTHDOYv6SUio61ZMO4LYPs",
-    authDomain: "hcq-test-clinicians.firebaseapp.com",
-    projectId: "hcq-test-clinicians",
-    storageBucket: "hcq-test-clinicians.appspot.com",
-    messagingSenderId: "1000780510338",
-    appId: "1:1000780510338:web:f8180c027bc2143c9d309b",
-    measurementId: "G-171H5WNPE1"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
-
+<body> 
     <div id="image-container">
         <img src="path/to/your/image.jpg" alt="OCT B-scan" id="octImage" style="width:100%; max-width:600px;">
     </div>
@@ -49,6 +24,11 @@
         <button type="submit">Submit</button>
     </form>
     <!-- Add JavaScript here -->
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"></script>
+    <script src="form-handler.js"></script>
+
 </body>
 </html>
 
