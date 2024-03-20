@@ -1,12 +1,13 @@
 // Initialize Firebase
 // Replace the following config object with your Firebase project configuration
 var firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDNt4mIFxyhXxTHDOYv6SUio61ZMO4LYPs",
+  authDomain: "hcq-test-clinicians.firebaseapp.com",
+  projectId: "hcq-test-clinicians",
+  storageBucket: "hcq-test-clinicians.appspot.com",
+  messagingSenderId: "1000780510338",
+  appId: "1:1000780510338:web:f8180c027bc2143c9d309b",
+  measurementId: "G-171H5WNPE1"
 };
 
 // Initialize Firebase
